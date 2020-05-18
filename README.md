@@ -14,3 +14,5 @@ Include the files used
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
 ##Editing README file
+
+##Editional changes on README file according to part 3
