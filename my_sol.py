@@ -2,7 +2,8 @@ import time
 import pandas as pd
 import numpy as np
 
-       # according to part 3 additional changes are done
+#Refactoring the code accoring to part 4
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
