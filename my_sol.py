@@ -2,8 +2,6 @@ import time
 import pandas as pd
 import numpy as np
 
-#Refactoring the code accoring to part 4
-
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -42,7 +40,7 @@ def get_filters():
 
     check_input = 1
 
-    while check_input==1 :
+    while True:
 
           month = input('Which month? all, january, february, march, april, may, june?')
 
@@ -53,13 +51,11 @@ def get_filters():
             continue
 
           else :
-             check_input=0
+
 
              break
 
                  # get user input for day of week (all, monday, tuesday, ... sunday)
-
-    check_input = 1
 
     while check_input==1  :
 
